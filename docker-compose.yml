@@ -7,7 +7,7 @@ services:
     ports:
       - "4000:4000"
     volumes:
-      - ./src:/app
+      - ./moneys:/app
     depends_on:
       - db
   db:
